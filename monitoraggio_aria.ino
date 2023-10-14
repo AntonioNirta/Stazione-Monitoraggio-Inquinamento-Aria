@@ -6,10 +6,10 @@
 #define DHTPIN D7                //Costante del pin digitale D7 per l'acquisizione della Temperatura e l'Umidita'
 #define DHTTYPE DHT22            //Costante DHT22 nome del sensore
 
-#define SECRET_CH_ID 2299024    // sostituire 0000000 con l'ID del canale
-#define SECRET_WRITE_APIKEY "4Z7XF4LFTM1QC3D5" // sostituire XYZ con la API Key del canale
-#define SECRET_SSID "FASTWEB-6N73UA"      // sostituire MySSID con il SSID della rete WiFi
-#define SECRET_PASS "KQDUXT3E2X"  // sostituire MyPassword con la password WiFi
+#define SECRET_CH_ID 0000000    // sostituire 0000000 con l'ID del canale
+#define SECRET_WRITE_APIKEY "XYZ" // sostituire XYZ con la API Key del canale
+#define SECRET_SSID "Il mio SSID"      // sostituire Il mio SSID con il SSID della rete WiFi
+#define SECRET_PASS "Password_Wi-Fi"  // sostituire Password_Wi-Fi con la password WiFi
 
 DHT dht(DHTPIN, DHTTYPE);
 SDS011 my_sds;
